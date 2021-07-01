@@ -11,7 +11,7 @@ import wolframalpha
 import json
 import requests
 
-wolf_app_id = "8V7486-5PPTWX2AKH"
+wolf_app_id = "ADD_YOURS_HERE"
 
 
 engine = pyttsx3.init('sapi5')
@@ -144,7 +144,7 @@ if __name__ == '__main__':
                 time.sleep(delay)
 
             elif "weather" in statement:
-                api_key = "8ef61edcf1c576d65d836254e11ea420"
+                api_key = "ADD_YOURS_HERE"
                 base_url = "https://api.openweathermap.org/data/2.5/weather?"
                 speak("whats the city name")
                 city_name = take_command()
